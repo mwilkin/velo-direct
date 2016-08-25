@@ -3,3 +3,9 @@
 <p>
   Thanks for checking us out.
 </p>
+
+<ul>
+  {{#each model as |item|}}
+    <li>{{item.brand}}</li>
+  {{/each}}
+</ul>
