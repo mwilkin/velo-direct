@@ -13,6 +13,13 @@ module.exports = function(environment) {
       }
     },
 
+    firebase: {
+               apiKey: 'AIzaSyD0aVJkc-f6D_snmZ7nZAi8IM2tEss7M80',
+          authDomain: 'velo-direct-1fd64.firebaseapp.com',
+          databaseURL: 'https://velo-direct-1fd64.firebaseio.com',
+          storageBucket: 'velo-direct-1fd64.appspot.com',
+        },
+
     APP: {
       // Here you can pass flags/options to your application instance
       // when it is created
